@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Membuat tampilan yang responsif -->
+        <link rel="manifest" href="manifest.json">  <!-- Menambahkan link ke file manifest.json -->
+        <link rel="stylesheet" href="style.css">  <!-- Menambahkan link ke file CSS -->
+        <title>Halaman Detail</title>
+    </head>
+
+    <body>
+        <header>
+
+            <!-- Judul halaman -->
+            <h1>Penjelasan Aplikasi Web PWA</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>  <!-- Navigasi ke halaman Home -->
+                    <li><a href="#">Detail</a></li>  <!-- Navigasi ke halaman Detail (halaman saat ini) -->
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Halaman Detail !</h2>
+
+                <!-- Paragraf penjelasan tentang aplikasi web PWA -->
+                <p>
+                    Aplikasi web PWA (Progressive Web App) adalah jenis aplikasi web yang dikembangkan dengan 
+                    menggunakan teknologi web modern dan memiliki kemampuan seperti aplikasi native. Aplikasi 
+                    web PWA dapat diakses melalui browser web seperti aplikasi biasa, tetapi juga memiliki 
+                    fitur-fitur tambahan yang membuat pengalaman pengguna lebih baik, seperti:
+                </p>
+
+                <!-- Daftar fitur-fitur aplikasi web PWA -->
+                <ul>
+                    <li>Aplikasi web PWA dirancang untuk dapat beradaptasi dengan berbagai ukuran layar, termasuk 
+                        smartphone, tablet, dan desktop.</li>
+                    <li>Aplikasi web PWA menyediakan file manifest (manifest.json) yang berisi metadata dan konfigurasi 
+                        aplikasi, termasuk ikon, nama aplikasi, tata letak layar, dan preferensi pengguna.</li>
+                    <li>Pengguna dapat menginstal aplikasi web PWA ke layar utama perangkat mereka, mirip dengan aplikasi 
+                        native, sehingga mereka dapat mengaksesnya dengan cepat tanpa melalui browser.</li>
+                    <li>PWA menggunakan service worker, yaitu skrip JavaScript yang berjalan di background dan memberikan 
+                        kontrol yang lebih besar atas cache, pengambilan data, dan fungsi lainnya. Service worker memungkinkan 
+                        aplikasi web PWA untuk berfungsi secara offline dan memberikan pengalaman yang cepat dan lancar bahkan 
+                        di jaringan yang buruk.</li>
+                    <li>Dengan bantuan service worker, aplikasi web PWA dapat melakukan caching dan mengambil data dari cache 
+                        secara efisien, mengurangi ketergantungan pada koneksi jaringan dan meningkatkan kecepatan serta kinerja 
+                        aplikasi.</li>
+                    <li>Aplikasi web PWA dapat mengirimkan notifikasi push ke pengguna, bahkan saat aplikasi tidak aktif atau 
+                        sedang ditutup.</li>
+                    <li>PWA dapat mengakses fitur perangkat seperti kamera, mikrofon, dan lokasi, dengan izin pengguna.</li>
+                    <li>PWA dapat diperbarui secara otomatis, sehingga pengguna selalu mendapatkan versi terbaru aplikasi tanpa 
+                        harus mengunduh atau memperbarui secara manual.</li>
+                    <li>Aplikasi web PWA menggunakan protokol HTTPS untuk menjaga keamanan komunikasi antara pengguna dan server, 
+                        serta mencegah serangan dan manipulasi data.</li>
+                </ul>
+
+                <!-- Tempat untuk menampilkan data cuaca (yang akan diisi melalui JavaScript) -->
+                <div id="weather-data"></div>
+            </section>
+            <nav>
+                <ul>
+                    <!-- Tombol untuk kembali ke halaman Home -->
+                    <button><a href="index.html">Kembali</a></button>
+                </ul>
+            </nav>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+</html>

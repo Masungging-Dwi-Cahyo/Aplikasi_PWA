@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  
+  background: seashell;   
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+p {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 0 1rem;
+  text-align: justify;
+}
+ 
+h1 {
+  font-family: 'Fredoka One', cursive;
+}
+
+button {
+  background: rgb(27, 146, 220);
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  float: center;
+  color: white;
+}
+
+legend {
+  background: #F76C6C;
+  padding: 5px;
+  color: white;
+}
